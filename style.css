@@ -88,6 +88,7 @@ p {
 .spis{
 text-align: center;
 }
+
 .ssilka{
 
     text-align: center;
@@ -95,6 +96,19 @@ text-align: center;
     font-size: xx-large;
 }
 
+.comment-feed h2 {
 
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.container{
+    text-align: center;
+}
+
+.comment-inner {
+    position: relative;
+    flex-grow: 1;
+    margin-right: 10px;
 
 
