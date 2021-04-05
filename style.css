@@ -27,6 +27,29 @@
     background-size: 100%;
 }
 
+.heart {
+    padding: 30px 30px;
+    min-width: 40px;
+    min-height: 34px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    cursor: pointer;
+    background-image: url("img/heart.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+.heart.added {
+    background-image: url("img/heartB.png");
+}
+
+
+
 .cnopkaTem {
 text-align: right;
 }
