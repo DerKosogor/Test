@@ -15,6 +15,11 @@
 </head>
 
 <body class="page theme1">
+<!-- Вылезающее меню -->
+<div class="tooltip">
+    <span class="tooltip-text"></span>
+    <button class="button close-button" type="button"><span>Закрыть</span></button>
+</div>
 
 <header>
     <section class="Gifka">
@@ -43,10 +48,13 @@
 
 </div>
 
-
-<p>
-    параграф - 1
+<div>
+    <p>
+    Пример текста с <button class="tooltip-button" type="button" data-tooltip-text="пример текста пояснения">пояснением</button><br>
+    Для примера нескольких<button class="tooltip-button" type="button" data-tooltip-text="второе пояснение"> пояснений</button>
 </p>
+</div>
+
 
 <a href="source/index.html">
     <div class="ssilka">ссылка на вторую страницу</div>
@@ -103,6 +111,8 @@
 <script src="JSTheme.js"></script>
 <script src="JSPoleVvoda-vivoda.js"></script>
 <script src="likes.js"></script>
+<script src="explanation.js"></script>
 <script src="comment.js"></script>
+
 </body>
 </html>

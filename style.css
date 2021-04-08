@@ -118,6 +118,91 @@ text-align: center;
     margin-right: 10px;
 }
 
-li {
+li.user-comment{
     border-style: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tooltip-button {
+    cursor: pointer;
+    position: relative;
+    padding: 1px 8px;
+    border: none;
+    color: red;
+    font: inherit;
+}
+
+.tooltip-button::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 4px solid;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+/* Стили тултипа */
+@keyframes tooltip-opener {
+    0% {
+        background-color: red;
+        transform: translate(50%) scaleX(0);
+    }
+
+    100% {
+        background-color: aqua;
+        transform: translate(100%) scaleX(100%);
+    }
+}
+
+.tooltip {
+    z-index: 2;
+    display: none;
+    flex-direction: row-reverse;
+    position: fixed;
+    max-width: 256px;
+    right: 0;
+    top: 160px;
+    border-radius: 8px 0 0 8px;
+}
+
+.opened {
+    display: flex;
+    animation: tooltip-opener 1500ms;
+}
+
+.tooltip-text {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.close-button {
+    min-height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px 0 0 8px;
+}
+
+.close-button span {
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(-90deg);
 }
