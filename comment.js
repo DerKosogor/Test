@@ -8,7 +8,7 @@ let commentField = document.querySelector('.comment-field');
 
 //обявляем переменную для создать новый элемент пункт списка
     let newComment = document.createElement('li');
-    //давить класс юзеркоммент новому пункту списка
+    //добавить класс юзеркоммент новому пункту списка
     newComment.classList.add('user-comment');
     //занести текст из поля ввода в новый пункт списка
     newComment.textContent = commentField.value;
