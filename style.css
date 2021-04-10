@@ -54,9 +54,9 @@ text-align: right;
 }
 
 .me{
-    border: #ffffff;
     border-color: rgba(0,0,0,0.2);
     border-style: ridge;
+    border: #ffffff;
     border-radius: 50%;
     text-align: center;
 }
@@ -123,16 +123,7 @@ li.user-comment{
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/* свойства для скрывающегося окна с поясняющим текстом */
 
 .tooltip-button {
     cursor: pointer;
@@ -206,3 +197,4 @@ li.user-comment{
     vertical-align: middle;
     transform: rotate(-90deg);
 }
+
