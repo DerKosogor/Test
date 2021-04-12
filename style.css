@@ -93,13 +93,19 @@ text-align: center;
 .ssilka{
 
     text-align: center;
-    color: #fffdf5;
+    color: #ffc109;
     font-size: xx-large;
+    text-decoration: none;
+    cursor: pointer;
+
 }
 
-.comment-feed h2 {
-    margin-top: 0;
-    margin-bottom: 12px;
+
+.bordcom{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border-color: #d9f1ff;
 }
 
 .container{
@@ -107,8 +113,8 @@ text-align: center;
     margin-right: 35%;
 
     text-align: center;
-    border: dashed;
-    border-color: red;
+    border-style: ridge;
+    border-color: #d9f1ff;
 
 }
 
@@ -119,7 +125,10 @@ text-align: center;
 }
 
 li.user-comment{
-    border-style: dashed;
+    border-style: ridge;
+    margin-left: 3%;
+    margin-right: 10%;
+
 }
 
 
